@@ -1,0 +1,153 @@
+.collapse .navbar-nav .nav-item .dashboard{
+	color: #467BEE;
+	border-bottom: 1px dashed #467BEE;
+}
+.navbar-nav .nav-item .nav-link{
+	font-size: 18px;
+	color: #000;
+	padding: 16px 20px;
+}
+.rect{
+	border-radius: 68px;
+	width: 60px;
+	height: 60px;
+}
+.shadow{
+	box-shadow: 0px 6px 15px #467BEE !important;
+}
+.name{
+	padding: 16px 10px;
+	margin: 0;
+}
+.bi-chevron-down{
+	color: #467BEE;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.bi-chevron-left{
+	background-color: #467BEE;
+	color: #fff;
+	padding: 10px;
+	border-radius: 50%;
+	float: left;
+	margin: 30px 10px;
+}
+.service{
+	color: #467BEE;
+	padding: 35px;
+}
+.line:after{
+	content: "";
+	height: 2px;
+	background-color: #E6ECF8;
+	width: 100%;
+}
+.btn-select{
+	background-color: #467BEE;
+	border-radius: 25px;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.btn-select:hover{
+	color: #fff;
+}
+.btn-select:after, .btn-detail:after{
+	content: "";
+	background-color: #E6ECF8;
+	height: 2px;
+	width: 180px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.num{
+	background-color: #fff;
+	border-radius: 50%;
+	color: #467BEE;
+	padding: 4px 8px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.btn-detail, .btn-checks{
+	background-color: #EFEFEF;
+	border-radius: 25px;
+	color: #467BEE;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 210px;
+}
+.bg-color{
+	background: #F7F8FC 0% 0% no-repeat padding-box;
+	margin-top: 2px;
+}
+.refill{
+	font-size: 14px;
+}
+.card-back{
+	background-color: #467BEE;
+	border-radius: 25px;
+}
+.card-back-2{
+	background-color: #F7F8FC;
+	border-radius: 25px;
+}
+.table-border{
+	border: 1px solid #ACC8FF;
+	background: #EBF1FD 0% 0% no-repeat padding-box;
+}
+.str{
+	background: #F7F8FC 0% 0% no-repeat padding-box;
+}
+.btn-add{
+	background-color: #467BEE;
+	color: #fff;
+	border-radius: 25px;
+}
+.card-radius{
+	border-radius: 25px;
+	box-shadow: 0px 0px 15px #467BEE30;
+}
+.cart{
+	color: #467BEE;
+}
+hr{
+	opacity: 0.1;
+}
+.table-font{
+	font-size: 12px;
+}
+.btn-select-2{
+	background: #EBF1FD 0% 0% no-repeat padding-box;
+	border-radius: 25px;
+	color: #467BEE;
+	padding: 0px 20px;
+}
+.bi-check-square-fill{
+	color: #467BEE;
+	border-radius: 50%;
+}
+.btn-complete{
+	background-color: #16A34A;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+.total{
+	color: #467BEE;
+}
+@media (max-width: 992px){
+	.btn-select:after{
+		display: none;
+	}
+	.btn-detail:after{
+		display: none;
+	}
+	.btn-detail, .btn-checks{
+		margin-left: 0;
+	}
+	.select{
+		font-size: 18px;
+	}
+}
